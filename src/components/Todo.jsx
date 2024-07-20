@@ -64,7 +64,7 @@ if(tasks.length > 0) {
 
   return (
     <>
-      <div id="main" className="mainContainer h-screen flex w-full flex-col bg-gray-950">
+      <div id="main" className="mainContainer flex w-full flex-col bg-gray-950">
         <div className="headingContainer  p-8 bg-gray-800 flex justify-between">
           <div className="heading">
             <h2 className="headingText text-white text-xl font-medium font-sans ">
@@ -122,7 +122,7 @@ if(tasks.length > 0) {
           </div>
           <div className="mainTodoBox p-8">
             <div className="headingT text-2xl text-white">Your Notes</div>
-            <div className="todoBoxes flex custom650:flex-col custom650:items-center justify-center border-none p-4 rounded-md my-3">
+            <div className="todoBoxes flex border-none p-4 rounded-md my-3">
               {tasks.length > 0 ? (
                 tasks.map((item, index) => (
                   <div
